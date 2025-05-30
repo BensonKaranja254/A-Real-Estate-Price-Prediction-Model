@@ -17,11 +17,14 @@ This machine learning project aims to predict housing prices based on property f
 - Encoded categorical variables and scaled numerical features.
 - Implemented and compared different regression models:
   - Linear Regression  
-  - Ridge Regression  
+  - Ridge Regression
+  - Random Forest Regressor  
 - Used performance metrics such as:
   - Confusion Matrix
+  - MSE
+  - R2 score
 ## Results
-The Random Forest Regressor model produced the most accurate price predictions, demonstrating strong performance across all evaluation metrics.
+The Ridge regression model produced the most accurate price predictions, demonstrating strong performance across all evaluation metrics.
 
 ## Conclusion
 This project showcases how regression techniques can be effectively applied to real-world datasets for property value estimation, offering a practical solution for modern real estate analytics.
